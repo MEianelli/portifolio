@@ -1,0 +1,76 @@
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Roboto Condensed', sans-serif;*/
+
+body {
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+p {
+  margin: 20px 0 0 0;
+  font-size: 2em;
+  background-color: darkcyan;
+  color: white;
+  width: 100%;
+  float: left;
+}
+.container {
+  padding: 0;
+  box-sizing: border-box;
+  float: left;
+  width: 600px;
+}
+#p5Canvas {
+  width: 100%;
+  height: 400px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+.linkfoto:hover {
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.linkfoto {
+  width: 50% !important;
+  float: left;
+}
+.resetfoto {
+  background-color: slateblue !important;
+  text-align: right;
+}
+.resetfoto:hover {
+  background-color: springgreen !important;
+}
+.linkp5js {
+  font-size: 1.1em;
+}
+.linkp5js:hover {
+  font-size: 1.2em;
+  color: black;
+}
+.linksFooter {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+.linkIndex {
+  text-align: center !important;
+  border-right: solid 1px white;
+  float: left;
+  width: 25% !important;
+}
+.linkIndex:hover {
+  background-color: tomato;
+}
