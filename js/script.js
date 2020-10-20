@@ -17,7 +17,7 @@ function setup() {
 }
 
 function preload() {
-  img = loadImage("./assets/images/profile.jpg");
+  img = loadImage("./img/profile.jpg");
 }
 
 function draw() {
